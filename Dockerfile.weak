@@ -1,0 +1,20 @@
+# --- STEP 0: the weak starting point -----------------------------------
+# Deliberately insecure, for the case study. Do not use.
+#
+# Problems on purpose:
+#   - old, unpinned base image
+#   - runs as root
+#   - installs unnecessary packages, no cache cleanup
+#   - copies the whole build context in (including this Dockerfile, .git, etc.)
+#   - a "secret" baked into an ENV layer
+#   - no HEALTHCHECK, no resource awareness
+FROM python:3.9
+
+ENV API_KEY=supersecret12345
+
+WORKDIR /app
+COPY . .
+RUN pip install flask==2.0.1
+
+EXPOSE 8080
+CMD ["python", "app/app.py"]

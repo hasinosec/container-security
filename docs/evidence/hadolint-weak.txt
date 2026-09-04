@@ -1,0 +1,2 @@
+Dockerfile.weak:13 DL3064 [1m[93mwarning[0m: Potentially sensitive data should not be used in the `ARG` or `ENV` commands
+Dockerfile.weak:17 DL3042 [1m[93mwarning[0m: Avoid use of cache directory with pip. Use `pip install --no-cache-dir <package>`

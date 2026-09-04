@@ -1,0 +1,34 @@
+trivy image container-security:weak --scanners vuln,secret
+Base image: python:3.9 (unpinned tag, full Debian)
+
+Severity totals:
+  CRITICAL  232
+  HIGH      1840
+  MEDIUM    5179
+  LOW       1928
+  UNKNOWN   135
+  TOTAL     9314
+
+By scan target:
+   9301  container-security:weak (debian 13.1)
+     13  Python
+
+Top 15 packages by CRITICAL+HIGH count:
+    660  linux-libc-dev
+     61  imagemagick
+     61  imagemagick-7-common
+     61  imagemagick-7.q16
+     61  libmagickcore-7-arch-config
+     61  libmagickcore-7-headers
+     61  libmagickcore-7.q16-10
+     61  libmagickcore-7.q16-10-extra
+     61  libmagickcore-7.q16-dev
+     61  libmagickcore-dev
+     61  libmagickwand-7-headers
+     61  libmagickwand-7.q16-10
+     61  libmagickwand-7.q16-dev
+     61  libmagickwand-dev
+     26  libpq-dev
+
+(Full per-CVE table omitted here — 9,314 entries. Regenerate with:
+ trivy image container-security:weak --severity CRITICAL,HIGH --format table)

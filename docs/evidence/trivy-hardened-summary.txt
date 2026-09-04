@@ -1,0 +1,323 @@
+
+Report Summary
+
+┌──────────────────────────────────────────────────────────────────────────────────┬────────────┬─────────────────┬─────────┐
+│                                      Target                                      │    Type    │ Vulnerabilities │ Secrets │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ container-security:hardened (debian 13.6)                                        │   debian   │       54        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/app/.local/lib/python3.11/site-packages/blinker-1.9.0.dist-info/METADATA    │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/app/.local/lib/python3.11/site-packages/click-8.5.0.dist-info/METADATA      │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/app/.local/lib/python3.11/site-packages/flask-3.0.3.dist-info/METADATA      │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/app/.local/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/METAD- │ python-pkg │        0        │    -    │
+│ ATA                                                                              │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/app/.local/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA     │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/app/.local/lib/python3.11/site-packages/markupsafe-3.0.3.dist-info/METADATA │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/app/.local/lib/python3.11/site-packages/werkzeug-3.1.8.dist-info/METADATA   │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/packaging-26.3.dist-info/METADATA         │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/pip-24.0.dist-info/METADATA               │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA      │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dis- │ python-pkg │        0        │    -    │
+│ t-info/METADATA                                                                  │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2- │ python-pkg │        0        │    -    │
+│ .0.dist-info/METADATA                                                            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.- │ python-pkg │        0        │    -    │
+│ 0.0.dist-info/METADATA                                                           │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-in- │ python-pkg │        0        │    -    │
+│ fo/METADATA                                                                      │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.- │ python-pkg │        0        │    -    │
+│ 1.0.dist-info/METADATA                                                           │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.- │ python-pkg │        1        │    -    │
+│ dist-info/METADATA                                                               │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.- │ python-pkg │        0        │    -    │
+│ 1.dist-info/METADATA                                                             │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.di- │ python-pkg │        0        │    -    │
+│ st-info/METADATA                                                                 │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0- │ python-pkg │        0        │    -    │
+│ .dist-info/METADATA                                                              │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-i- │ python-pkg │        0        │    -    │
+│ nfo/METADATA                                                                     │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.di- │ python-pkg │        0        │    -    │
+│ st-info/METADATA                                                                 │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info- │ python-pkg │        0        │    -    │
+│ /METADATA                                                                        │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-- │ python-pkg │        0        │    -    │
+│ info/METADATA                                                                    │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.1- │ python-pkg │        0        │    -    │
+│ 2.2.dist-info/METADATA                                                           │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-inf- │ python-pkg │        1        │    -    │
+│ o/METADATA                                                                       │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info- │ python-pkg │        0        │    -    │
+│ /METADATA                                                                        │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/wheel-0.46.3.dist-info/METADATA           │ python-pkg │        0        │    -    │
+└──────────────────────────────────────────────────────────────────────────────────┴────────────┴─────────────────┴─────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+container-security:hardened (debian 13.6)
+=========================================
+Total: 54 (HIGH: 51, CRITICAL: 3)
+
+┌───────────────┬────────────────┬──────────┬──────────────┬───────────────────────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│    Library    │ Vulnerability  │ Severity │    Status    │         Installed Version         │ Fixed Version │                            Title                             │
+├───────────────┼────────────────┼──────────┼──────────────┼───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ bsdutils      │ CVE-2026-76642 │ HIGH     │ affected     │ 1:2.41.5-0+deb13u1                │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ gzip          │ CVE-2026-41992 │          │              │ 1.13-1                            │               │ gzip: gzip: Information disclosure via global buffer         │
+│               │                │          │              │                                   │               │ overflow in LZH decompression                                │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-41992                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libacl1       │ CVE-2026-54369 │          │              │ 2.3.2-2+b1                        │               │ acl: Symlink traversal privilege escalation via libacl       │
+│               │                │          │              │                                   │               │ functions                                                    │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-54369                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libblkid1     │ CVE-2026-76642 │          │              │ 2.41.5-0+deb13u1                  │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├───────────────┼────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ liblastlog2-2 │ CVE-2026-76642 │          │              │                                   │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├───────────────┼────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmount1     │ CVE-2026-76642 │          │              │                                   │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libncursesw6  │ CVE-2025-69720 │          │              │ 6.5+20250216-2                    │               │ ncurses: ncurses: Buffer overflow vulnerability may lead to  │
+│               │                │          │              │                                   │               │ arbitrary code execution.                                    │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2025-69720                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libsmartcols1 │ CVE-2026-76642 │          │              │ 2.41.5-0+deb13u1                  │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libsqlite3-0  │ CVE-2026-11822 │          │              │ 3.46.1-7+deb13u1                  │               │ sqlite: SQLite: Arbitrary code execution via crafted FTS5    │
+│               │                │          │              │                                   │               │ full-text search data                                        │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-11822                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-11824 │          │              │                                   │               │ sqlite: SQLite: Arbitrary code execution and crash via       │
+│               │                │          │              │                                   │               │ heap-based buffer overflow in...                             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-11824                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libsystemd0   │ CVE-2026-16742 │          │              │ 257.13-1~deb13u1                  │               │ systemd: systemd-homed: Local privilege escalation via       │
+│               │                │          │              │                                   │               │ missing home-record signature verification                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-16742                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libtinfo6     │ CVE-2025-69720 │          │              │ 6.5+20250216-2                    │               │ ncurses: ncurses: Buffer overflow vulnerability may lead to  │
+│               │                │          │              │                                   │               │ arbitrary code execution.                                    │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2025-69720                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libudev1      │ CVE-2026-16742 │          │              │ 257.13-1~deb13u1                  │               │ systemd: systemd-homed: Local privilege escalation via       │
+│               │                │          │              │                                   │               │ missing home-record signature verification                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-16742                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libuuid1      │ CVE-2026-76642 │          │              │ 2.41.5-0+deb13u1                  │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ login         │ CVE-2026-76642 │          │              │ 1:4.16.0-2+really2.41.5-0+deb13u1 │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ mount         │ CVE-2026-76642 │          │              │ 2.41.5-0+deb13u1                  │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+├───────────────┼────────────────┤          │              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ ncurses-base  │ CVE-2025-69720 │          │              │ 6.5+20250216-2                    │               │ ncurses: ncurses: Buffer overflow vulnerability may lead to  │
+│               │                │          │              │                                   │               │ arbitrary code execution.                                    │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2025-69720                   │
+├───────────────┤                │          │              │                                   ├───────────────┤                                                              │
+│ ncurses-bin   │                │          │              │                                   │               │                                                              │
+│               │                │          │              │                                   │               │                                                              │
+│               │                │          │              │                                   │               │                                                              │
+├───────────────┼────────────────┼──────────┤              ├───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ perl-base     │ CVE-2026-13221 │ CRITICAL │              │ 5.40.1-6                          │               │ perl: Perl: Incorrect regular expression processing via      │
+│               │                │          │              │                                   │               │ large regular expressions                                    │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-13221                   │
+│               ├────────────────┤          ├──────────────┤                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-42496 │          │ fix_deferred │                                   │               │ perl-archive-tar: perl-archive-tar: Path traversal via       │
+│               │                │          │              │                                   │               │ crafted symlinks allows arbitrary file access                │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-42496                   │
+│               ├────────────────┤          ├──────────────┤                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-8376  │          │ affected     │                                   │               │ perl: Perl: Heap buffer overflow when compiling regular      │
+│               │                │          │              │                                   │               │ expressions on 32-bit builds...                              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-8376                    │
+│               ├────────────────┼──────────┼──────────────┤                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-42497 │ HIGH     │ fix_deferred │                                   │               │ perl-Archive-Tar: perl-Archive-Tar: Arbitrary file           │
+│               │                │          │              │                                   │               │ modification via crafted hardlinks during archive extraction │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-42497                   │
+│               ├────────────────┤          ├──────────────┤                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-48962 │          │ affected     │                                   │               │ perl-IO-Compress: perl-IO-Compress: Arbitrary code execution │
+│               │                │          │              │                                   │               │ via attacker-controlled output glob                          │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-48962                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-57432 │          │              │                                   │               │ perl: Perl: Information disclosure via integer overflow in   │
+│               │                │          │              │                                   │               │ pack/unpack operations                                       │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-57432                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-57433 │          │              │                                   │               │ Storable: Storable: Denial of Service via signed integer     │
+│               │                │          │              │                                   │               │ overflow in deserialization                                  │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-57433                   │
+│               ├────────────────┤          ├──────────────┤                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-9538  │          │ fix_deferred │                                   │               │ perl-Archive-Tar: perl-Archive-Tar: Denial of Service via    │
+│               │                │          │              │                                   │               │ crafted tar header with large entry...                       │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-9538                    │
+├───────────────┼────────────────┤          ├──────────────┼───────────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ util-linux    │ CVE-2026-76642 │          │ affected     │ 2.41.5-0+deb13u1                  │               │ util-linux: util-linux: failed external mount helper still   │
+│               │                │          │              │                                   │               │ runs privileged X-mount post-hooks                           │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-76642                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78408 │          │              │                                   │               │ util-linux: util-linux: nsenter --join-cgroup leaks root     │
+│               │                │          │              │                                   │               │ cgroup migration authority                                   │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78408                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78409 │          │              │                                   │               │ util-linux: util-linux: X-mount.subdir detached-tree         │
+│               │                │          │              │                                   │               │ resolution can escape via intermediate symlinks              │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78409                   │
+│               ├────────────────┤          │              │                                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ CVE-2026-78410 │          │              │                                   │               │ util-linux: util-linux: restricted bind mounts do not pin    │
+│               │                │          │              │                                   │               │ the source, allowing X-mount.owner/group/mode...             │
+│               │                │          │              │                                   │               │ https://avd.aquasec.com/nvd/cve-2026-78410                   │
+└───────────────┴────────────────┴──────────┴──────────────┴───────────────────────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
+
+Python (python-pkg)
+===================
+Total: 2 (HIGH: 2, CRITICAL: 0)
+
+┌───────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│          Library          │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                            Title                             │
+├───────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ jaraco.context (METADATA) │ CVE-2026-23949 │ HIGH     │ fixed  │ 5.3.0             │ 6.1.0         │ jaraco.context: jaraco.context: Path traversal via malicious │
+│                           │                │          │        │                   │               │ tar archives                                                 │
+│                           │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-23949                   │
+├───────────────────────────┼────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ wheel (METADATA)          │ CVE-2026-24049 │          │        │ 0.45.1            │ 0.46.2        │ wheel: wheel: Privilege Escalation or Arbitrary Code         │
+│                           │                │          │        │                   │               │ Execution via malicious wheel file...                        │
+│                           │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-24049                   │
+└───────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘

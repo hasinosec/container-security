@@ -1,0 +1,7 @@
+.git
+.github
+docs
+*.md
+Dockerfile.weak
+__pycache__
+*.pyc

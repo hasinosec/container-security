@@ -1,0 +1,2 @@
+Dockerfile:22 DL3066 [92minfo[0m: Non-numeric user-id may not be resolvable by host system
+Dockerfile:29 DL3025 [1m[93mwarning[0m: Use arguments JSON notation for CMD and ENTRYPOINT arguments
